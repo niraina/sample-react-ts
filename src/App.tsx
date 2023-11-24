@@ -3,6 +3,7 @@
 import { ROUTES } from "@shared/router/Routes"
 import GlobalLayout from "./widgets/Layout"
 import {Routes, Route} from "react-router-dom"
+import "./shared/assets/style.scss"
 
 function App() {
 

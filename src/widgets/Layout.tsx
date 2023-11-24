@@ -26,7 +26,7 @@ const GlobalLayout: React.FC<MyComponentProps> = ({ children }) => {
         collapsible
         collapsed={collapsed}
       >
-        <h2 style={{textAlign: "center"}}>LOGO</h2>
+        <h2 className="text-center text-[24px] px-2 py-5">LOGO</h2>
         <AsideBar />
       </Sider>
       <Layout>

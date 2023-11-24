@@ -20,7 +20,7 @@ const AsideBar: React.FC = () => {
           </SubMenu>
         ) : (
           <Menu.Item key={item.key}>
-            {item.icon} <Link to={item.link}>{item.parent}</Link>
+            {item.icon} <Link to={item.link} className="ms-2">{item.parent}</Link>
           </Menu.Item>
         )
       )}
