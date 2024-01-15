@@ -1,6 +1,6 @@
-import Auth from "../../pages/auth";
-import DashBoard from "../../pages/dashboard";
-import Products from "../../pages/products";
+import Auth from "@pages/auth";
+import DashBoard from "@pages/dashboard";
+import Products from "@pages/products";
 
 export const ROUTES = [
     {

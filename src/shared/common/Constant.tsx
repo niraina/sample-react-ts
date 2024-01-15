@@ -19,6 +19,22 @@ export const MenuConstant = [
     },
     {
         key: 2,
+        parent: "Produits",
+        icon: <DashboardOutlined />,
+        link: "/product",
+        childs: [
+            {
+                label: "Product",
+                link: "/product"
+            },
+            {
+                label: "Option 2",
+                link: "/opt2"
+            }
+        ]
+    },
+    {
+        key: 3,
         parent: "Setting",
         icon: <SettingOutlined />,
         link: "/setting",
@@ -30,7 +46,7 @@ export const MenuConstant = [
         ]
     },
     {
-        key: 3,
+        key: 4,
         parent: "Profile",
         icon: <UserOutlined />,
         link: "/users",
