@@ -9,7 +9,8 @@ const Field: React.FC<any> = ({
   prefix="",
   suffix="",
   value,
-  onChange
+  onChange,
+  className=""
 }) => {
   return (
     <>
@@ -21,6 +22,7 @@ const Field: React.FC<any> = ({
         type={type}
         value={value}
         onChange={onChange}
+        className={className}
       />
     </>
   )
